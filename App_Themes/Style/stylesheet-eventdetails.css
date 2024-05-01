@@ -1,0 +1,119 @@
+﻿main{
+    display:flex;
+    justify-content:center;
+}
+
+#ContentEventDetails {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-items:center;
+}
+
+#ContentEventImage {
+    width: 100%;
+}
+
+.event-image {
+    width: 100%;
+}
+
+#ContentEventInfo{
+    width:100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#ContentEventTicket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hasIcon {
+    display: flex;
+    align-items: center;
+}
+
+.hasIcon i {
+    margin-right: 10px;
+}
+
+.hasIcon p {
+    margin: 0;
+}
+
+#BuyTicketCard {
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 21.44px;
+}
+
+#BuyTicketCardHeader {
+    width: 100%;
+    height: 50px;
+    background-color: #114B5F;
+    color: white;
+    border-radius:15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#BuyTicketCardContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+#BuyTicketCardContent div p:first-child{
+    margin: 0;
+}
+
+#BuyTicketCardContent div {
+    margin: 10px 0;
+}
+
+.event-price {
+    opacity: 50%;
+    margin: 10px 0 0 0;
+}
+
+#TicketPrice {
+    opacity: 1;
+}
+
+#BuyTicketCardBottom {
+    display: flex;
+    justify-content: center;
+}
+
+#minusIcon, #plusIcon {
+    cursor:pointer;
+}
+
+#CheckoutButton {
+    background-color: #F45B69;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-weight: 600;
+}
+    #CheckoutButton:hover {
+        background-color: #fb717e
+    }
+
+footer {
+    margin-top: 50px;
+}

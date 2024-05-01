@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.Master.cs" Inherits="EventSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <div id="navLeftSide">
+            <h1><a href="AllEvents.aspx">eventor</a></h1>
+        </div>
+        <div id="navRightSide">
+            <ul>
+                <li><a>My Tickets</a></li>
+                <li><a>Sign Up</a></li>
+                <li><a>Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <hr />
+        <p>© 2022 Company, Inc</p>
+    </footer>
+
+</body>
+</html>
