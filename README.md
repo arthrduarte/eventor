@@ -46,3 +46,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 For any additional questions or comments, please contact:
 
 - **[Arthur Duarte]** - arthurleiteduarte@outlook.com
+
+  ## Images
+![image](https://github.com/o2thur/eventor/assets/77739399/3e8e1c07-6b84-4412-9fd5-93e9b5f6eae2)
+![image](https://github.com/o2thur/eventor/assets/77739399/d367ec1a-9e5c-4510-b219-93ab023339a1)
+
