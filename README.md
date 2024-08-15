@@ -30,7 +30,7 @@ To run this project locally, you'll need to have ASP.NET and .NET Framework inst
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/eventsystem.git
+   git clone https://github.com/o2thur/eventsystem.git
    ```
 2. Open the solution file (`EventSystem.sln`) in Visual Studio.
 3. Restore any NuGet packages if needed.
